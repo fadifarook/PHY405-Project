@@ -9,4 +9,4 @@ This python script uses scipy.io.wavfile module to generate a 25Hz + 50Hz two to
 ## 2. ADC_20kHz.ino
 This arduino script requires the TimerOne library (https://github.com/PaulStoffregen/TimerOne). 
 
-It involves reading an input analog audio signal, and updating the duty cycle of the PWM pulse at 10kHz frequency. The carrier frequency of the PWM signal is 20KHz (requires the library change from default frequency).
+It involves reading an input analog audio signal, and updating the duty cycle of the PWM pulse at 10kHz frequency. The carrier frequency of the PWM signal is 20KHz (requires the library to change from default frequency).
